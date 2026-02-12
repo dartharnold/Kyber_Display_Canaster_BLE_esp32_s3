@@ -1,0 +1,245 @@
+---- Opened the serial port COM9 ----
+Device name: IOTWF9C5
+
+Found another manData: 29 [1][5A][52][23][61][1][50][F][0][0][0][49][64][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData[B1][88][CA][A0][A5][F][C8][A6][][5A][7E][8B][FA][98]
+Devices found: 10
+Scan done!
+Found another manufacturers beacon!
+strManufacturerData0][22][DA][B1][88][CA][A0][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E
+Found strManufacturerData: [76][6F][F0][1D][38]
+Devic
+Found another manufacturers beacon!
+strManufacturerData
+Found another manufacturers beacon!
+str[69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][54][1]
+Devices found: 11
+Scan done!
+strManufacturerData: 29 [6][0][1][F][20][22][A0][F1][8B][CD][85][69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Device name: DROIDTLBX
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strManufacturerData: 29 [6][0][1][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+FstrManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+strManufacturerData: 6 [4C][0][12][2][0][0]
+
+Found another manufacturers beacon!
+strManufacturerD1][5A][52][23][61][1][50][F][0][0][0][49][64][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found[0][1][9][20][22][6][58][18][E3][6E][8B][8A][E4][C2][E7][A5][D][4B][B0][36][47][29][18][88][2A][86][F8][53]
+Devices found: 12
+Scan done!
+Device name: DROIDTLBX
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][94][2]
+Found another manufac
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+[A5][F][C8][A6][A][9][26][F1][][98]
+strManufacturerData: 29 [6][0][1][F][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon![0][12][2][0][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][54][1]
+Devices found: 11
+Scan done!
+Device name: DROIDTLBX
+
+Found anufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found ano[69][7D][B6][E2][EA][8][FE][FB][91][8E][51][C7]
+Device name: IOTWF9C5
+
+Found another1][5A][52][23][61][1][50][F][00][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 29 [6][0][1][9][20][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another meacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+[0][12][2][0][0]
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Devices found: 11
+Scan done!
+Device name: DROIDTLBX
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+[69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+8]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][94][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon!
+strManufacturerData: 21 [4C][0][7][11][6][D2][AB][B0][][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Found another manufacturers beacon!
+strManufacturerDat[A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Device name: IOTWF9C5
+
+Found another manufacturers beacon!
+strManufacturerData: 29 [1][5A][52][23][61][1][50][F][0][0][0][49][64][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Devices found: 11
+Scan done!
+Devic
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strManufacturerData:[A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon!
+strMa: 29 [6][0][1][F][20][22][A0][F1][8B][CD][85][69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][54][1]
+strManufacturerData: 21 [4C][0][7][][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Devices found: 11
+Scan done!
+
+Found another manufacturers beacon!
+strManufact3][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strManufacturerData: 29 [6][0][1][9][20][22][DA][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 29 [6][0][1][F][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Device name: IOTWF9C5
+
+Found another ma[0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 21 [4C][0][7][11][6][D][B0][57][42][79][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Devices found: 11
+Scan done!
+[83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+[69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+strManufacturer9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found anotstrManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][94][2]
+strManufacturerData: 6 [4C][0][12][2][54][1]
+Device name: IOTWF9C5
+
+Found another manufactureData: 29 [1][5A][52][23][61][1][50][F][0][0][0][49][64][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 21 [4C][42][79][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Devices found: 11
+Scan done!
+De
+
+Fanother manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strMa[69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+strManufac[94][2]
+FostrManufacturerData[5][26][18][0][8][7B]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][54][1]
+Found another manufacturers beacon!
+strManufacturerData9][20][22][DA][B1][88][CA][A0][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 21 [4C][0][7][11][6][D2][AB][B][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Devices found: 11
+Scan done!
+Found another 
+strMa[8B][CD][85][69][7D][[34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Device name: DROIDTLB[83][1][A][4][2][18][A6][1]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7[1D][38]
+Found another manufacturers beacon!
+strManufacturerD1][88][CA][A0][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Devices found: 9
+Scan done!
+Found another manufacturers beacon!
+2][A0][F1][8B][C][38][FE][FB][91][8E][51][C7]
+Device name: DROIDTLBX
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [83][1][A][4][2][18][A6][1]
+Found anotstrMaurerData: 29 [6][0][1][9][20][22][DA][B1][88][CA][A0][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+Found another manufacturers beacon!
+strManufacturerData: 11 [4C][0][10][7][38][1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Devices found: 9
+Scan done!
+Device name: DROIDTLBX
+
+Found another manufacturers beacon!
+strManufacturerData: 8 [[A6][1]
+Found another manufacturers beacon!
+[69][7D][B6][E2][EA][94][34][B][9C][69][1A][38][FE][FB][91][8E][51][C7]
+Found another manufacturers beacon!
+strManufacturerData: 11 [1F][76][6F][F0][1D][38]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][2]
+Found another manufacturers beacon!
+strManufacturerData: 6 [4C][0][12][2][0][0]
+st[A0][A5][F][C8][A6][A][9][26][F1][50][8C][34][C2][9A][5A][7E][8B][FA][98]
+Found another manufacturers beacon!
+strManufacturerData: 9 [4C][0][10][5][26][18][0][8][7B]
+Found another manufacturers beacon!
+][1F][64][93][BB][98][FD][E1][B][D0][F5]
+Devices found: 11
+Scan done!
+---- Closed the serial port COM9 ----
