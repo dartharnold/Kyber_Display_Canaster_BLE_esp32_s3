@@ -19,7 +19,7 @@ uint8_t pins[STRIPCOUNT] = {1,2};  // GPIO1, GPIO2
 const char* DEVNAME = "KyberVault";
 
 // ----------------------- Timers & Counters -----------------------
-#define CHANGEDELY 5*1000     // 5 second Delay (was 15s in original)  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
+#define CHANGEDELY 5*1000     // 5 second Delay (was 15s in original)  
 
 // ----------------------- Location IDs -----------------------
 #define NOBEACON     0
@@ -31,23 +31,27 @@ const char* DEVNAME = "KyberVault";
 #define DOKONDARS    6
 #define FIRSTORDER   7
 
-// ----------------------- Crystal Colors -----------------------
-#define BLACK       0x00000000
-#define WHITE       0x00FFFFFF
-#define RED         0x00FF0000
-#define CRIMSONRED  0x00DC143C
-#define PURPLE      0x00FF00FF
-#define DARKPURPLE  0x00301934
-#define BLUE        0x0000008B
-#define CYAN        0x0000FFFF
-#define GREEN       0x0000FF00
-#define YELLOW      0x00FFBF00
-#define ORANGE      0x00FF7E00
+// Crystal Colors
+#define BLACK         0x00000000    // #000000
+#define WHITE         0x00FFFFFF    // #FFFFFF
+#define RED           0x00FF0000    // #FF0000
+#define CRIMSONRED    0x00DC143C    // #DC143C  
+#define PURPLE        0x00FF00FF    // #FF00FF  
+#define DARKPURPLE    0x00301934    // #301934  
+#define BLUE          0x0000008B    // #00008B
+//#define BLUE          0x000000FF    // #0000FF
+#define CYAN          0x0000FFFF    // #00FFFF
+#define GREEN         0x0000FF00    // #00FF00
+#define YELLOW        0x00FFBF00    // #FFBF00
+#define ORANGE        0x00FF7E00    // #FF7E00 
+//#define ORANGE        0x00FFA500    // #FFA500   
+
 
 // ----------------------- Filters -----------------------
-#define RSSI           -75         // Minimum RSSI to consider   [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
-#define BLE_DISNEY     0x0183      // Manufacturer Company ID    [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
-const String IGNOREHOST = "SITH-TLBX"; // Ignore a specific beacon host  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
+#define RSSI           -75                // Minimum RSSI to consider   
+#define BLE_DISNEY     0x0183             // Manufacturer Company ID    
+
+const String IGNOREHOST = "SITH-TLBX";    // Ignore a specific beacon host  
 
 // ----------------------- State -----------------------
 uint32_t last_activity;
@@ -127,14 +131,14 @@ void setup() {
   randomSeed((uint32_t)esp_random());
 
   // ----------------------- NimBLE init -----------------------
-  NimBLEDevice::init(DEVNAME);          // sets the local name, too  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
+  NimBLEDevice::init(DEVNAME);          // sets the local name, too  
   NimBLEDevice::setPower(ESP_PWR_LVL_P3); // optional: TX power level; adjust if needed
 
   NimBLEScan* scan = NimBLEDevice::getScan();
   scan->setScanCallbacks(&MyAdvertisedDeviceCallbacks, false); // false = skip duplicates
-  scan->setActiveScan(true);     // needed to get scan responses (for names)  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
-  scan->setInterval(160);        // 160*0.625ms=100ms, matching your original  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
-  scan->setWindow(80);           // 80*0.625ms = 50ms                         [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
+  scan->setActiveScan(true);     // needed to get scan responses (for names)  
+  scan->setInterval(160);        // 160*0.625ms=100ms, matching your original  
+  scan->setWindow(80);           // 80*0.625ms = 50ms                         
   scan->setDuplicateFilter(true);
 
   // Start scanning continuously (no auto-stop)
