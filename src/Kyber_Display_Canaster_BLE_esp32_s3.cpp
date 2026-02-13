@@ -13,7 +13,7 @@ Adafruit_NeoPixel strip[STRIPCOUNT];
 
 // Update these to whatever GPIOs your two strips are actually on
 // On XIAO-ESP32-S3, verify these GPIOs are available on your header and free.
-uint8_t pins[STRIPCOUNT] = {7, 9};  // GPIO7, GPIO9
+uint8_t pins[STRIPCOUNT] = {1,2};  // GPIO1, GPIO2
 
 // ----------------------- Device Info -----------------------
 const char* DEVNAME = "KyberVault";
@@ -60,7 +60,7 @@ void updatePixels();
 void colorPulse();
 
 // ----------------------- NimBLE scanning callback -----------------------
-class MyAdvertisedDeviceCallbacks : public NimBLEAdvertisedDeviceCallbacks {
+class MyAdvertisedDeviceCallbacks : public BLEAdvertisedDeviceCallbacks {
   void onResult(const NimBLEAdvertisedDevice* dev) override {
     // RSSI filter
     int rssi = dev->getRSSI();
@@ -96,7 +96,7 @@ class MyAdvertisedDeviceCallbacks : public NimBLEAdvertisedDeviceCallbacks {
   }
 } MyAdvertisedDeviceCallbacks;
 
-static MyAdvertisedDeviceCallbacks advCB;
+//static MyAdvertisedDeviceCallbacks advCB;
 
 void setup() {
   Serial.begin(115200);
@@ -131,14 +131,14 @@ void setup() {
   NimBLEDevice::setPower(ESP_PWR_LVL_P3); // optional: TX power level; adjust if needed
 
   NimBLEScan* scan = NimBLEDevice::getScan();
-  scan->setAdvertisedDeviceCallbacks(&advCB, false); // false = skip duplicates
+  scan->setScanCallbacks(&MyAdvertisedDeviceCallbacks, false); // false = skip duplicates
   scan->setActiveScan(true);     // needed to get scan responses (for names)  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
   scan->setInterval(160);        // 160*0.625ms=100ms, matching your original  [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
   scan->setWindow(80);           // 80*0.625ms = 50ms                         [1](https://utsystemadmin-my.sharepoint.com/personal/jarnold_utsystem_edu/Documents/Microsoft%20Copilot%20Chat%20Files/Kyber_Display_Canaster_BLE.cpp)
   scan->setDuplicateFilter(true);
 
   // Start scanning continuously (no auto-stop)
-  scan->start(0, nullptr, false);
+  scan->start(0, false, false);
 
   Serial.println("Starting SWGE Location Scanning ...");
 }
