@@ -231,6 +231,7 @@ void colorPulse() {
   int stripNumber = random(0, 2);
   int iDelay = random(50, 201);
   int iBright = random(150, 256);
+  
   delay(iDelay);
   strip[stripNumber].setBrightness(iBright);
   strip[stripNumber].show();
